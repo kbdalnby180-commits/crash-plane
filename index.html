@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>لعبة الطيارة</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>🎮 لعبة الطيارة 🎮</h2>
+
+  <div class="play-container">
+    <div id="playArea">
+      <img id="plane" src="images/klipartz.com.png" alt="plane" />
+      <div id="line"></div>
+      <img id="explosion" src="images/64f06d3a3dd1b.png" alt="explosion" />
+    </div>
+
+    <div id="multiplier">x1.00</div>
+    <div id="result"></div>
+    <div id="balance"></div>
+
+    <div class="controls">
+      <input id="bet1" type="number" placeholder="رهان لاعب 1" value="10" />
+      <button id="bet1Start">ابدأ</button>
+      <button id="bet1Cash">سحب</button>
+    </div>
+
+    <div class="controls">
+      <input id="bet2" type="number" placeholder="رهان لاعب 2" value="10" />
+      <button id="bet2Start">ابدأ</button>
+      <button id="bet2Cash">سحب</button>
+    </div>
+  </div>
+
+  <h3>👥 اللاعبين</h3>
+  <div id="playersArea"></div>
+
+  <h3>📜 سجل المعاملات</h3>
+  <div id="transactionsList">لا توجد معاملات بعد</div>
+
+  <h3>💳 إيداع</h3>
+  <input id="depositAmount" type="number" placeholder="أدخل المبلغ" />
+  <button id="depositConfirm">إيداع</button>
+
+  <!-- cordova.js يضاف تلقائيًا وقت التشغيل -->
+  <script src="game.js"></script>
+</body>
+</html>

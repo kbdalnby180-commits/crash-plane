@@ -1,0 +1,83 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: cairo, Arial;
+  text-align: center;
+}
+.play-container {
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #444;
+  border-radius: 12px;
+}
+#playArea {
+  position: relative;
+  height: 250px;
+  background: #000;
+  overflow: hidden;
+  border-radius: 12px;
+}
+#plane {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 200px;
+  transition: transform 0.1s;
+}
+#line {
+  position: absolute;
+  top: 54%;
+  height: 5px;
+  background: rgb(255, 187, 0);
+  transform: translateY(-50%);
+  right: 0;
+}
+#explosion {
+  position: absolute;
+  display: none;
+  width: 80px;
+  transform: translateY(-50%);
+}
+.controls {
+  margin: 10px;
+}
+input {
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid #555;
+}
+button {
+  padding: 6px 12px;
+  margin: 4px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #28a745;
+  color: #fff;
+}
+button:hover { background: #218838; }
+#transactionsList {
+  margin-top: 10px;
+  text-align: right;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+#playersArea {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  justify-content: center;
+}
+.player-card {
+  background: #222;
+  padding: 6px 10px;
+  border-radius: 8px;
+  min-width: 90px;
+}
+.player-id { font-weight: bold; color: #0af; }
+.player-bet { color: #ffd700; }
+.player-status { margin-top: 2px; }

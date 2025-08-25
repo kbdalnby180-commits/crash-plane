@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kbdalnby180-commits.github.io/crash-plane/sitemap.xml

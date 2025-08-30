@@ -1,0 +1,104 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: "Cairo", Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+h2 { margin:20px 0; font-size:28px; color:#0ff; text-shadow:0 0 10px #0ff,0 0 25px #0ff;}
+.play-container {
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 12px;
+  background: linear-gradient(145deg,#111,#222);
+  box-shadow: 0 0 20px #0ff inset;
+}
+#playArea {
+  position: relative;
+  height: 250px;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px #0ff inset;
+}
+#plane {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 200px;
+  transition: transform 0.05s;
+  z-index:2;
+  filter: drop-shadow(0 0 15px #0ff);
+}
+#line {
+  position: absolute;
+  top: 54%;
+  height: 6px;
+  background: linear-gradient(90deg,#0ff,#0ff,#0ff);
+  transform: translateY(-50%);
+  right: 0;
+  z-index:1;
+}
+#explosion {
+  position: absolute;
+  display: none;
+  width: 220px;
+  top:50%;
+  transform: translateY(-50%);
+  z-index:3;
+}
+.controls { margin: 10px 0; }
+input {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #555;
+  width: 130px;
+}
+button {
+  padding: 6px 14px;
+  margin: 4px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #0a0a2e;
+  color: #fff;
+  font-weight:bold;
+  transition:0.3s;
+}
+button:hover { background:#05052a; color:#0ff; }
+#transactionsList {
+  margin-top: 10px;
+  text-align: right;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 14px;
+  background: rgba(255,255,255,0.05);
+  border-radius:8px;
+  padding:6px;
+}
+#playersArea {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  justify-content: center;
+}
+.player-card {
+  background: linear-gradient(145deg,#111,#222);
+  padding: 6px 10px;
+  border-radius: 8px;
+  min-width: 90px;
+  text-align:center;
+  color:#0ff;
+  box-shadow:0 0 10px #0ff;
+  font-weight:bold;
+}
+.player-id { color:#0af; }
+.player-bet { color:#ffd700; }
+.player-status { margin-top:2px; color:#0f0; }
+#multiplier { font-size:24px; margin:10px 0; color:#0ff; text-shadow:0 0 10px #0ff; }
+#result { font-size:22px; margin:10px 0; color:#0ff; text-shadow:0 0 10px #0ff;}
+#balance { font-size:20px; margin:10px 0; color:#ffd700; text-shadow:0 0 10px #ffd700;}

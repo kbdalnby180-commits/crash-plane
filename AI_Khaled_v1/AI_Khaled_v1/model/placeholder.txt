@@ -1,0 +1,1 @@
+model folder - add khalid_model.pkl after training

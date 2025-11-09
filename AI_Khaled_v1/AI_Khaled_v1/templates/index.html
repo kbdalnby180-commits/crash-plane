@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ar">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>AI Khaled — Offline</title>
+<link rel="stylesheet" href="/assets/style.css"/>
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="left">
+      <img src="assets\icons\ai_icon.jpg" alt="icon" class="icon"/>
+      <h1>AI Khaled</h1>
+    </div>
+    <div class="right">
+      <button id="btn-train">🔄 إعادة تدريب الذكاء</button>
+      <button id="btn-save">💾 حفظ المحادثة</button>
+    </div>
+  </header>
+  <main id="chat"></main>
+  <form id="form" autocomplete="off">
+    <input id="input" placeholder="اكتب رسالتك هنا..." />
+    <button type="submit">إرسال</button>
+  </form>
+  <footer class="note">شغّل "إعادة تدريب" بعد جمع محادثات كافية</footer>
+</div>
+<script src="/assets/script.js"></script>
+</body>
+</html>

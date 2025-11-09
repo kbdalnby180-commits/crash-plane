@@ -1,0 +1,15 @@
+body{font-family:Segoe UI, Tahoma, Arial; background:#071022; color:#e6eef8; margin:0; padding:0; direction:rtl}
+.app{max-width:900px;margin:18px auto;padding:12px;background:#081423;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,0.6)}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;border-bottom:1px solid rgba(255,255,255,0.03)}
+.topbar .left{display:flex;align-items:center;gap:12px}
+.icon{width:40px;height:40px;border-radius:6px}
+.topbar h1{margin:0;font-size:18px}
+.topbar .right button{margin-left:8px;padding:8px 12px;border-radius:6px;border:none;background:#0ea5a5;color:#001;font-weight:600}
+#chat{height:520px;overflow:auto;padding:12px;border-radius:8px;background:linear-gradient(180deg,#06121b,#071822)}
+.bubble{margin:8px 0;padding:10px 12px;border-radius:12px;display:inline-block;max-width:85%;word-wrap:break-word;clear:both}
+.bubble.user{background:#0f1724;color:#cfe8ff;float:right;border-top-right-radius:2px}
+.bubble.bot{background:#1f2937;color:#fff;float:left;border-top-left-radius:2px}
+form{display:flex;gap:8px;padding-top:12px}
+input{flex:1;padding:10px;border-radius:8px;border:1px solid #233043;background:#07122a;color:#e6eef8}
+button[type="submit"]{padding:10px 14px;border-radius:8px;border:none;background:#2563eb;color:#fff}
+.note{padding:8px 12px;color:#8aa0b8;font-size:13px;text-align:center}

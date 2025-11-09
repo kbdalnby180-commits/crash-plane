@@ -1,0 +1,528 @@
+[2025-10-11 01:42:48,051] [INFO] ✅ تم تحميل 14 زوج من dataset.csv
+[2025-10-11 01:42:48,085] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-10-11 01:42:48,085] [INFO] [33mPress CTRL+C to quit[0m
+[2025-10-11 01:42:54,254] [INFO] 127.0.0.1 - - [11/Oct/2025 01:42:54] "GET / HTTP/1.1" 200 -
+[2025-10-11 01:42:54,590] [INFO] 127.0.0.1 - - [11/Oct/2025 01:42:54] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-10-11 01:42:54,651] [INFO] 127.0.0.1 - - [11/Oct/2025 01:42:54] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-10-11 01:42:54,658] [INFO] 127.0.0.1 - - [11/Oct/2025 01:42:54] "GET /assets/icons/ai_icon.png HTTP/1.1" 200 -
+[2025-10-11 01:42:54,706] [INFO] 127.0.0.1 - - [11/Oct/2025 01:42:54] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-10-11 01:42:54,714] [INFO] 127.0.0.1 - - [11/Oct/2025 01:42:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-10-11 01:43:05,297] [INFO] رد من نموذج ML
+[2025-10-11 01:43:05,299] [INFO] [CHAT] k; → (مسترجع) الحمد لله
+[2025-10-11 01:43:05,300] [INFO] 127.0.0.1 - - [11/Oct/2025 01:43:05] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 01:43:14,096] [INFO] رد مسترجع من الذاكرة
+[2025-10-11 01:43:14,099] [INFO] [CHAT] اسمك ابن → (الاجابة) ai khaled
+[2025-10-11 01:43:14,099] [INFO] 127.0.0.1 - - [11/Oct/2025 01:43:14] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 01:43:19,689] [INFO] رد من نموذج ML
+[2025-10-11 01:43:19,691] [INFO] [CHAT] بسيس → (مسترجع) الحمد لله
+[2025-10-11 01:43:19,692] [INFO] 127.0.0.1 - - [11/Oct/2025 01:43:19] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 01:43:22,873] [INFO] رد من نموذج ML
+[2025-10-11 01:43:22,875] [INFO] [CHAT] بتسيتنتن → (مسترجع) الحمد لله
+[2025-10-11 01:43:22,876] [INFO] 127.0.0.1 - - [11/Oct/2025 01:43:22] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 01:43:25,465] [INFO] رد من نموذج ML
+[2025-10-11 01:43:25,467] [INFO] [CHAT] يبمتبتلتننيبتلن → (مسترجع) الحمد لله
+[2025-10-11 01:43:25,468] [INFO] 127.0.0.1 - - [11/Oct/2025 01:43:25] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 01:43:39,746] [INFO] رد من نموذج ML
+[2025-10-11 01:43:39,748] [INFO] [CHAT] كم عمرك → (مسترجع) الحمد لله
+[2025-10-11 01:43:39,749] [INFO] 127.0.0.1 - - [11/Oct/2025 01:43:39] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 01:53:04,557] [INFO] ✅ تم تحميل 14 سؤال/إجابة من dataset.csv
+[2025-10-11 01:53:04,596] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-10-11 01:53:04,597] [INFO] [33mPress CTRL+C to quit[0m
+[2025-10-11 01:53:11,399] [INFO] 127.0.0.1 - - [11/Oct/2025 01:53:11] "GET / HTTP/1.1" 200 -
+[2025-10-11 01:53:12,014] [INFO] 127.0.0.1 - - [11/Oct/2025 01:53:12] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-10-11 01:53:12,015] [INFO] 127.0.0.1 - - [11/Oct/2025 01:53:12] "GET /assets/icons/ai_icon.png HTTP/1.1" 200 -
+[2025-10-11 01:53:12,020] [INFO] 127.0.0.1 - - [11/Oct/2025 01:53:12] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-10-11 01:53:12,105] [INFO] 127.0.0.1 - - [11/Oct/2025 01:53:12] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-10-11 01:53:12,147] [INFO] 127.0.0.1 - - [11/Oct/2025 01:53:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-10-11 01:53:24,636] [INFO] [CHAT] gh → (مسترجع) الحمد لله
+[2025-10-11 01:53:24,637] [INFO] 127.0.0.1 - - [11/Oct/2025 01:53:24] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 01:53:31,964] [INFO] [CHAT] fjgjks;kglfdkjlg → (مسترجع) الحمد لله
+[2025-10-11 01:53:31,964] [INFO] 127.0.0.1 - - [11/Oct/2025 01:53:31] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 02:04:04,806] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-10-11 02:04:04,807] [INFO] [33mPress CTRL+C to quit[0m
+[2025-10-11 02:04:11,502] [INFO] 127.0.0.1 - - [11/Oct/2025 02:04:11] "GET / HTTP/1.1" 200 -
+[2025-10-11 02:04:12,030] [INFO] 127.0.0.1 - - [11/Oct/2025 02:04:12] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-10-11 02:04:12,074] [INFO] 127.0.0.1 - - [11/Oct/2025 02:04:12] "GET /assets/icons/ai_icon.png HTTP/1.1" 200 -
+[2025-10-11 02:04:12,077] [INFO] 127.0.0.1 - - [11/Oct/2025 02:04:12] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-10-11 02:04:12,152] [INFO] 127.0.0.1 - - [11/Oct/2025 02:04:12] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-10-11 02:04:12,162] [INFO] 127.0.0.1 - - [11/Oct/2025 02:04:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-10-11 02:04:15,287] [INFO] dataset loaded: 14 pairs
+[2025-10-11 02:04:15,291] [INFO] ai_engine initialized.
+[2025-10-11 02:04:19,186] [INFO] [ML] model returned an answer
+[2025-10-11 02:04:19,189] [INFO] [CHAT] gfd -> (مسترجع) الحمد لله
+[2025-10-11 02:04:19,190] [INFO] 127.0.0.1 - - [11/Oct/2025 02:04:19] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 02:04:24,949] [INFO] [ML] model returned an answer
+[2025-10-11 02:04:24,952] [INFO] [CHAT] asdfdoggffgm,hkg;ljkh -> (مسترجع) الحمد لله
+[2025-10-11 02:04:24,953] [INFO] 127.0.0.1 - - [11/Oct/2025 02:04:24] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 02:07:49,244] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-10-11 02:07:49,246] [INFO] [33mPress CTRL+C to quit[0m
+[2025-10-11 02:07:54,480] [INFO] 127.0.0.1 - - [11/Oct/2025 02:07:54] "GET / HTTP/1.1" 200 -
+[2025-10-11 02:07:54,723] [INFO] 127.0.0.1 - - [11/Oct/2025 02:07:54] "GET /assets/icons/ai_icon.png HTTP/1.1" 200 -
+[2025-10-11 02:07:54,755] [INFO] 127.0.0.1 - - [11/Oct/2025 02:07:54] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-10-11 02:07:54,765] [INFO] 127.0.0.1 - - [11/Oct/2025 02:07:54] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-10-11 02:07:54,863] [INFO] 127.0.0.1 - - [11/Oct/2025 02:07:54] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-10-11 02:07:54,903] [INFO] 127.0.0.1 - - [11/Oct/2025 02:07:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-10-11 02:07:57,067] [INFO] dataset loaded: 14 pairs
+[2025-10-11 02:07:57,067] [INFO] ai_engine initialized.
+[2025-10-11 02:07:57,068] [WARNING] failed reading C:\Users\Computer City\Downloads\AI_Khaled_v1\data\memory.json: Expecting value: line 1 column 1 (char 0)
+[2025-10-11 02:08:01,012] [INFO] [ML] model returned an answer
+[2025-10-11 02:08:01,014] [INFO] [CHAT] fdsf -> (مسترجع) الحمد لله
+[2025-10-11 02:08:01,014] [INFO] 127.0.0.1 - - [11/Oct/2025 02:08:01] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 02:19:19,089] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-10-11 02:19:19,089] [INFO] [33mPress CTRL+C to quit[0m
+[2025-10-11 02:19:25,650] [INFO] 127.0.0.1 - - [11/Oct/2025 02:19:25] "GET / HTTP/1.1" 200 -
+[2025-10-11 02:19:26,194] [INFO] 127.0.0.1 - - [11/Oct/2025 02:19:26] "GET /assets/icons/ai_icon.png HTTP/1.1" 200 -
+[2025-10-11 02:19:26,247] [INFO] 127.0.0.1 - - [11/Oct/2025 02:19:26] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-10-11 02:19:26,248] [INFO] 127.0.0.1 - - [11/Oct/2025 02:19:26] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-10-11 02:19:26,368] [INFO] 127.0.0.1 - - [11/Oct/2025 02:19:26] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-10-11 02:19:26,390] [INFO] 127.0.0.1 - - [11/Oct/2025 02:19:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-10-11 02:19:29,641] [INFO] dataset loaded: 14 pairs
+[2025-10-11 02:19:29,642] [INFO] ai_engine initialized.
+[2025-10-11 02:19:34,069] [INFO] [ML] model returned an answer
+[2025-10-11 02:19:34,072] [INFO] [CHAT] sdasd -> (مسترجع) الحمد لله
+[2025-10-11 02:19:34,072] [INFO] 127.0.0.1 - - [11/Oct/2025 02:19:34] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 02:48:55,377] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-10-11 02:48:55,378] [INFO] [33mPress CTRL+C to quit[0m
+[2025-10-11 02:48:58,057] [INFO] 127.0.0.1 - - [11/Oct/2025 02:48:58] "GET / HTTP/1.1" 200 -
+[2025-10-11 02:48:58,319] [INFO] 127.0.0.1 - - [11/Oct/2025 02:48:58] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-10-11 02:48:58,334] [INFO] 127.0.0.1 - - [11/Oct/2025 02:48:58] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-10-11 02:48:58,355] [INFO] 127.0.0.1 - - [11/Oct/2025 02:48:58] "GET /assets/icons/ai_icon.png HTTP/1.1" 200 -
+[2025-10-11 02:48:58,457] [INFO] 127.0.0.1 - - [11/Oct/2025 02:48:58] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-10-11 02:48:58,474] [INFO] 127.0.0.1 - - [11/Oct/2025 02:48:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-10-11 02:49:02,303] [INFO] dataset loaded: 14 pairs
+[2025-10-11 02:49:02,303] [INFO] ai_engine initialized.
+[2025-10-11 02:49:04,748] [INFO] [ML] model returned an answer
+[2025-10-11 02:49:04,751] [INFO] [CHAT] gfdg -> (مسترجع) الحمد لله
+[2025-10-11 02:49:04,752] [INFO] 127.0.0.1 - - [11/Oct/2025 02:49:04] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 02:49:09,053] [INFO] [DATASET] match score=1.00
+[2025-10-11 02:49:09,056] [INFO] [CHAT] hi -> أهلاً! ممكن أساعدك في أي حاجة برمجية.
+[2025-10-11 02:49:09,057] [INFO] 127.0.0.1 - - [11/Oct/2025 02:49:09] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 02:49:13,871] [INFO] [ML] model returned an answer
+[2025-10-11 02:49:13,874] [INFO] [CHAT] sad -> (مسترجع) الحمد لله
+[2025-10-11 02:49:13,875] [INFO] 127.0.0.1 - - [11/Oct/2025 02:49:13] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 02:49:19,344] [INFO] [ML] model returned an answer
+[2025-10-11 02:49:19,347] [INFO] [CHAT] *** -> (مسترجع) الحمد لله
+[2025-10-11 02:49:19,347] [INFO] 127.0.0.1 - - [11/Oct/2025 02:49:19] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 02:50:43,794] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-10-11 02:50:43,813] [INFO] [33mPress CTRL+C to quit[0m
+[2025-10-11 02:50:51,273] [INFO] 127.0.0.1 - - [11/Oct/2025 02:50:51] "GET / HTTP/1.1" 200 -
+[2025-10-11 02:50:51,519] [INFO] 127.0.0.1 - - [11/Oct/2025 02:50:51] "GET /assets/icons/ai_icon.png HTTP/1.1" 200 -
+[2025-10-11 02:50:51,634] [INFO] 127.0.0.1 - - [11/Oct/2025 02:50:51] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-10-11 02:50:51,641] [INFO] 127.0.0.1 - - [11/Oct/2025 02:50:51] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-10-11 02:50:51,789] [INFO] 127.0.0.1 - - [11/Oct/2025 02:50:51] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-10-11 02:50:51,845] [INFO] 127.0.0.1 - - [11/Oct/2025 02:50:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-10-11 02:51:00,807] [INFO] dataset loaded: 14 pairs
+[2025-10-11 02:51:00,807] [INFO] ai_engine initialized.
+[2025-10-11 02:51:00,809] [INFO] [DATASET] match score=1.00
+[2025-10-11 02:51:00,814] [INFO] [CHAT] مساء الخير -> صباح النور يا khaled
+[2025-10-11 02:51:00,816] [INFO] 127.0.0.1 - - [11/Oct/2025 02:51:00] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 02:51:37,774] [INFO] [CACHE] hit
+[2025-10-11 02:51:37,777] [INFO] [CHAT] مساء الخير -> صباح النور يا khaled
+[2025-10-11 02:51:37,778] [INFO] 127.0.0.1 - - [11/Oct/2025 02:51:37] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-11 02:52:42,059] [INFO] [CACHE] hit
+[2025-10-11 02:52:42,062] [INFO] [CHAT] مساء الخير -> صباح النور يا khaled
+[2025-10-11 02:52:42,063] [INFO] 127.0.0.1 - - [11/Oct/2025 02:52:42] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-14 03:42:19,474] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-10-14 03:42:19,479] [INFO] [33mPress CTRL+C to quit[0m
+[2025-10-14 03:42:31,336] [INFO] 127.0.0.1 - - [14/Oct/2025 03:42:31] "GET / HTTP/1.1" 200 -
+[2025-10-14 03:42:31,927] [INFO] 127.0.0.1 - - [14/Oct/2025 03:42:31] "GET /assets/icons/ai_icon.png HTTP/1.1" 200 -
+[2025-10-14 03:42:32,151] [INFO] 127.0.0.1 - - [14/Oct/2025 03:42:32] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-10-14 03:42:32,151] [INFO] 127.0.0.1 - - [14/Oct/2025 03:42:32] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-10-14 03:42:32,166] [INFO] 127.0.0.1 - - [14/Oct/2025 03:42:32] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-10-14 03:42:32,365] [INFO] 127.0.0.1 - - [14/Oct/2025 03:42:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-10-14 03:42:37,553] [INFO] dataset loaded: 11 pairs
+[2025-10-14 03:42:37,553] [INFO] ai_engine initialized.
+[2025-10-14 03:42:37,555] [INFO] [DATASET] match score=1.00
+[2025-10-14 03:42:37,557] [INFO] [CHAT] hi -> أهلاً! ممكن أساعدك في أي حاجة برمجية.
+[2025-10-14 03:42:37,558] [INFO] 127.0.0.1 - - [14/Oct/2025 03:42:37] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-14 03:42:49,408] [INFO] [KB] matched key='hello'
+[2025-10-14 03:42:49,411] [INFO] [CHAT] hello -> أهلاً! كيف أقدر أساعدك؟
+[2025-10-14 03:42:49,412] [INFO] 127.0.0.1 - - [14/Oct/2025 03:42:49] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-14 03:43:01,610] [INFO] [DATASET] match score=1.00
+[2025-10-14 03:43:01,613] [INFO] [CHAT] صباح الخير -> صباح النور يا khaled
+[2025-10-14 03:43:01,613] [INFO] 127.0.0.1 - - [14/Oct/2025 03:43:01] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-14 03:43:08,369] [INFO] [DATASET] match score=0.50
+[2025-10-14 03:43:08,372] [INFO] [CHAT] صباح البي -> صباح النور يا khaled
+[2025-10-14 03:43:08,372] [INFO] 127.0.0.1 - - [14/Oct/2025 03:43:08] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-14 03:43:45,572] [INFO] [DATASET] match score=0.50
+[2025-10-14 03:43:45,575] [INFO] [CHAT] شو اسمك -> ai khaled
+[2025-10-14 03:43:45,576] [INFO] 127.0.0.1 - - [14/Oct/2025 03:43:45] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-14 03:43:53,210] [INFO] [ML] model returned an answer
+[2025-10-14 03:43:53,211] [INFO] [ML] model returned an answer
+[2025-10-14 03:43:53,217] [INFO] [CHAT] ليبل -> (مسترجع) الحمد لله
+[2025-10-14 03:43:53,219] [INFO] 127.0.0.1 - - [14/Oct/2025 03:43:53] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-14 03:43:53,224] [INFO] [CHAT] لبي -> (مسترجع) الحمد لله
+[2025-10-14 03:43:53,226] [INFO] 127.0.0.1 - - [14/Oct/2025 03:43:53] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-14 03:43:58,455] [INFO] 127.0.0.1 - - [14/Oct/2025 03:43:58] "[33mGET /api/save HTTP/1.1[0m" 404 -
+[2025-10-14 03:43:59,062] [INFO] 127.0.0.1 - - [14/Oct/2025 03:43:59] "[33mGET /api/save HTTP/1.1[0m" 404 -
+[2025-10-14 03:43:59,582] [INFO] 127.0.0.1 - - [14/Oct/2025 03:43:59] "[33mGET /api/save HTTP/1.1[0m" 404 -
+[2025-10-14 03:44:00,142] [INFO] 127.0.0.1 - - [14/Oct/2025 03:44:00] "[33mGET /api/save HTTP/1.1[0m" 404 -
+[2025-10-14 03:44:02,615] [INFO] 127.0.0.1 - - [14/Oct/2025 03:44:02] "[33mPOST /api/train HTTP/1.1[0m" 404 -
+[2025-10-14 03:44:03,718] [INFO] 127.0.0.1 - - [14/Oct/2025 03:44:03] "[33mGET /api/save HTTP/1.1[0m" 404 -
+[2025-10-14 03:44:03,966] [INFO] 127.0.0.1 - - [14/Oct/2025 03:44:03] "[33mGET /api/save HTTP/1.1[0m" 404 -
+[2025-10-14 03:44:04,446] [INFO] 127.0.0.1 - - [14/Oct/2025 03:44:04] "[33mGET /api/save HTTP/1.1[0m" 404 -
+[2025-10-14 03:44:06,662] [INFO] 127.0.0.1 - - [14/Oct/2025 03:44:06] "[33mGET /api/save HTTP/1.1[0m" 404 -
+[2025-10-14 03:44:06,942] [INFO] 127.0.0.1 - - [14/Oct/2025 03:44:06] "[33mGET /api/save HTTP/1.1[0m" 404 -
+[2025-10-14 22:49:27,508] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-10-14 22:49:27,509] [INFO] [33mPress CTRL+C to quit[0m
+[2025-10-14 22:49:35,634] [INFO] 127.0.0.1 - - [14/Oct/2025 22:49:35] "GET / HTTP/1.1" 200 -
+[2025-10-14 22:49:35,915] [INFO] 127.0.0.1 - - [14/Oct/2025 22:49:35] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-10-14 22:49:35,936] [INFO] 127.0.0.1 - - [14/Oct/2025 22:49:35] "GET /assets/icons/ai_icon.png HTTP/1.1" 200 -
+[2025-10-14 22:49:35,952] [INFO] 127.0.0.1 - - [14/Oct/2025 22:49:35] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-10-14 22:49:36,077] [INFO] 127.0.0.1 - - [14/Oct/2025 22:49:36] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-10-14 22:49:36,079] [INFO] 127.0.0.1 - - [14/Oct/2025 22:49:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-10-14 22:49:41,196] [INFO] dataset loaded: 11 pairs
+[2025-10-14 22:49:41,196] [INFO] ai_engine initialized.
+[2025-10-14 22:49:41,197] [INFO] [DATASET] match score=1.00
+[2025-10-14 22:49:41,201] [INFO] [CHAT] hi -> أهلاً! ممكن أساعدك في أي حاجة برمجية.
+[2025-10-14 22:49:41,201] [INFO] 127.0.0.1 - - [14/Oct/2025 22:49:41] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-14 22:49:48,280] [INFO] [DATASET] match score=1.00
+[2025-10-14 22:49:48,283] [INFO] [CHAT] اسمك ايه -> ai khaled
+[2025-10-14 22:49:48,284] [INFO] 127.0.0.1 - - [14/Oct/2025 22:49:48] "POST /api/chat HTTP/1.1" 200 -
+[2025-10-14 22:49:57,794] [INFO] [DATASET] match score=1.00
+[2025-10-14 22:49:57,797] [INFO] [CHAT] صباح الخير -> صباح النور يا khaled
+[2025-10-14 22:49:57,797] [INFO] 127.0.0.1 - - [14/Oct/2025 22:49:57] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-01 14:34:30,928] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-01 14:34:30,931] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-01 14:34:34,760] [INFO] 127.0.0.1 - - [01/Nov/2025 14:34:34] "GET / HTTP/1.1" 200 -
+[2025-11-01 14:34:35,073] [INFO] 127.0.0.1 - - [01/Nov/2025 14:34:35] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-01 14:34:35,106] [INFO] 127.0.0.1 - - [01/Nov/2025 14:34:35] "GET /assets/icons/ai_icon.png HTTP/1.1" 200 -
+[2025-11-01 14:34:35,127] [INFO] 127.0.0.1 - - [01/Nov/2025 14:34:35] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-01 14:34:35,189] [INFO] 127.0.0.1 - - [01/Nov/2025 14:34:35] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-01 14:34:35,190] [INFO] 127.0.0.1 - - [01/Nov/2025 14:34:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-01 14:34:39,831] [INFO] dataset loaded: 11 pairs
+[2025-11-01 14:34:39,831] [INFO] ai_engine initialized.
+[2025-11-01 14:34:39,833] [INFO] [DATASET] match score=1.00
+[2025-11-01 14:34:39,835] [INFO] [CHAT] hi -> أهلاً! ممكن أساعدك في أي حاجة برمجية.
+[2025-11-01 14:34:39,836] [INFO] 127.0.0.1 - - [01/Nov/2025 14:34:39] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-01 14:37:10,420] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-01 14:37:10,420] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-01 14:37:12,779] [INFO] 127.0.0.1 - - [01/Nov/2025 14:37:12] "GET / HTTP/1.1" 200 -
+[2025-11-01 14:37:12,813] [INFO] 127.0.0.1 - - [01/Nov/2025 14:37:12] "[33mGET /assets/icons/ai_icon.png HTTP/1.1[0m" 404 -
+[2025-11-01 14:37:12,995] [INFO] 127.0.0.1 - - [01/Nov/2025 14:37:12] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-01 14:37:13,007] [INFO] 127.0.0.1 - - [01/Nov/2025 14:37:13] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-01 14:37:13,013] [INFO] 127.0.0.1 - - [01/Nov/2025 14:37:13] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-01 14:37:13,062] [INFO] 127.0.0.1 - - [01/Nov/2025 14:37:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-01 14:38:19,614] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-01 14:38:19,615] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-01 14:38:22,520] [INFO] 127.0.0.1 - - [01/Nov/2025 14:38:22] "GET / HTTP/1.1" 200 -
+[2025-11-01 14:38:23,198] [INFO] 127.0.0.1 - - [01/Nov/2025 14:38:23] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-01 14:38:23,211] [INFO] 127.0.0.1 - - [01/Nov/2025 14:38:23] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-01 14:38:23,303] [INFO] 127.0.0.1 - - [01/Nov/2025 14:38:23] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-01 14:38:23,315] [INFO] 127.0.0.1 - - [01/Nov/2025 14:38:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-01 14:38:52,632] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-01 14:38:52,633] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-01 14:38:54,838] [INFO] 127.0.0.1 - - [01/Nov/2025 14:38:54] "GET / HTTP/1.1" 200 -
+[2025-11-01 14:38:55,094] [INFO] 127.0.0.1 - - [01/Nov/2025 14:38:55] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-01 14:38:55,098] [INFO] 127.0.0.1 - - [01/Nov/2025 14:38:55] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-01 14:38:55,115] [INFO] 127.0.0.1 - - [01/Nov/2025 14:38:55] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-01 14:38:55,238] [INFO] 127.0.0.1 - - [01/Nov/2025 14:38:55] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-01 14:38:55,239] [INFO] 127.0.0.1 - - [01/Nov/2025 14:38:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 20:41:00,471] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 20:41:00,474] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 20:41:05,892] [INFO] 127.0.0.1 - - [09/Nov/2025 20:41:05] "GET / HTTP/1.1" 200 -
+[2025-11-09 20:41:06,215] [INFO] 127.0.0.1 - - [09/Nov/2025 20:41:06] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 20:41:06,246] [INFO] 127.0.0.1 - - [09/Nov/2025 20:41:06] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 20:41:06,253] [INFO] 127.0.0.1 - - [09/Nov/2025 20:41:06] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 20:41:06,362] [INFO] 127.0.0.1 - - [09/Nov/2025 20:41:06] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 20:41:06,376] [INFO] 127.0.0.1 - - [09/Nov/2025 20:41:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 20:41:15,950] [INFO] dataset loaded: 11 pairs
+[2025-11-09 20:41:15,950] [INFO] ai_engine initialized.
+[2025-11-09 20:41:15,952] [INFO] [DATASET] match score=1.00
+[2025-11-09 20:41:15,955] [INFO] [CHAT] اسمك ايه -> ai khaled
+[2025-11-09 20:41:15,955] [INFO] 127.0.0.1 - - [09/Nov/2025 20:41:15] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 20:41:23,877] [INFO] [CACHE] hit
+[2025-11-09 20:41:23,881] [INFO] [CHAT] اسمك ايه -> ai khaled
+[2025-11-09 20:41:23,881] [INFO] 127.0.0.1 - - [09/Nov/2025 20:41:23] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 20:41:30,076] [INFO] [KB] matched key='hello'
+[2025-11-09 20:41:30,080] [INFO] [CHAT] hello -> أهلاً! كيف أقدر أساعدك؟
+[2025-11-09 20:41:30,080] [INFO] 127.0.0.1 - - [09/Nov/2025 20:41:30] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 20:42:37,706] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 20:42:37,707] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 20:42:41,040] [INFO] 127.0.0.1 - - [09/Nov/2025 20:42:41] "GET / HTTP/1.1" 200 -
+[2025-11-09 20:42:41,297] [INFO] 127.0.0.1 - - [09/Nov/2025 20:42:41] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 20:42:41,314] [INFO] 127.0.0.1 - - [09/Nov/2025 20:42:41] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 20:42:41,326] [INFO] 127.0.0.1 - - [09/Nov/2025 20:42:41] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 20:42:41,406] [INFO] 127.0.0.1 - - [09/Nov/2025 20:42:41] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 20:42:41,411] [INFO] 127.0.0.1 - - [09/Nov/2025 20:42:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 20:44:02,910] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 20:44:02,910] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 20:44:05,403] [INFO] 127.0.0.1 - - [09/Nov/2025 20:44:05] "GET / HTTP/1.1" 200 -
+[2025-11-09 20:44:05,694] [INFO] 127.0.0.1 - - [09/Nov/2025 20:44:05] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 20:44:05,718] [INFO] 127.0.0.1 - - [09/Nov/2025 20:44:05] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 20:44:05,723] [INFO] 127.0.0.1 - - [09/Nov/2025 20:44:05] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 20:44:05,807] [INFO] 127.0.0.1 - - [09/Nov/2025 20:44:05] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 20:44:05,817] [INFO] 127.0.0.1 - - [09/Nov/2025 20:44:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 20:44:21,250] [INFO] dataset loaded: 11 pairs
+[2025-11-09 20:44:21,251] [INFO] ai_engine initialized.
+[2025-11-09 20:44:55,518] [INFO] [ML] model returned an answer
+[2025-11-09 20:44:55,519] [INFO] [ML] model returned an answer
+[2025-11-09 20:44:55,522] [INFO] [CHAT] عندك كام سنه -> (مسترجع) الحمد لله
+[2025-11-09 20:44:55,523] [INFO] 127.0.0.1 - - [09/Nov/2025 20:44:55] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 20:44:55,525] [INFO] [CHAT] gdls -> (مسترجع) الحمد لله
+[2025-11-09 20:44:55,526] [INFO] 127.0.0.1 - - [09/Nov/2025 20:44:55] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 20:45:55,632] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 20:45:55,634] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 20:45:58,828] [INFO] 127.0.0.1 - - [09/Nov/2025 20:45:58] "GET / HTTP/1.1" 200 -
+[2025-11-09 20:45:59,244] [INFO] 127.0.0.1 - - [09/Nov/2025 20:45:59] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 20:45:59,245] [INFO] 127.0.0.1 - - [09/Nov/2025 20:45:59] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 20:45:59,251] [INFO] 127.0.0.1 - - [09/Nov/2025 20:45:59] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 20:45:59,391] [INFO] 127.0.0.1 - - [09/Nov/2025 20:45:59] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 20:45:59,391] [INFO] 127.0.0.1 - - [09/Nov/2025 20:45:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 20:46:08,008] [INFO] dataset loaded: 11 pairs
+[2025-11-09 20:46:08,013] [INFO] ai_engine initialized.
+[2025-11-09 20:46:08,015] [INFO] [DATASET] match score=1.00
+[2025-11-09 20:46:08,018] [INFO] [CHAT] ابعتلي رابط موقع fun x -> اهلا هذا هو رابط الموقع-https://kbdalnby180-commits.github.io/wep_fun/
+[2025-11-09 20:46:08,018] [INFO] 127.0.0.1 - - [09/Nov/2025 20:46:08] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 20:50:53,176] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 20:50:53,177] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 20:50:56,306] [INFO] 127.0.0.1 - - [09/Nov/2025 20:50:56] "GET / HTTP/1.1" 200 -
+[2025-11-09 20:50:56,642] [INFO] 127.0.0.1 - - [09/Nov/2025 20:50:56] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 20:50:56,681] [INFO] 127.0.0.1 - - [09/Nov/2025 20:50:56] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 20:50:56,686] [INFO] 127.0.0.1 - - [09/Nov/2025 20:50:56] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 20:50:56,944] [INFO] 127.0.0.1 - - [09/Nov/2025 20:50:56] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 20:50:56,945] [INFO] 127.0.0.1 - - [09/Nov/2025 20:50:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 20:51:30,643] [INFO] dataset loaded: 11 pairs
+[2025-11-09 20:51:30,647] [INFO] ai_engine initialized.
+[2025-11-09 20:51:30,649] [INFO] [DATASET] match score=1.00
+[2025-11-09 20:51:30,652] [INFO] [CHAT] صباح الجمال -> صباح الفل
+[2025-11-09 20:51:30,653] [INFO] 127.0.0.1 - - [09/Nov/2025 20:51:30] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 20:52:35,201] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 20:52:35,201] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 20:52:38,076] [INFO] 127.0.0.1 - - [09/Nov/2025 20:52:38] "GET / HTTP/1.1" 200 -
+[2025-11-09 20:52:38,411] [INFO] 127.0.0.1 - - [09/Nov/2025 20:52:38] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 20:52:38,416] [INFO] 127.0.0.1 - - [09/Nov/2025 20:52:38] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 20:52:38,441] [INFO] 127.0.0.1 - - [09/Nov/2025 20:52:38] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 20:52:38,533] [INFO] 127.0.0.1 - - [09/Nov/2025 20:52:38] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 20:52:38,540] [INFO] 127.0.0.1 - - [09/Nov/2025 20:52:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 20:52:44,822] [INFO] dataset loaded: 12 pairs
+[2025-11-09 20:52:44,823] [INFO] ai_engine initialized.
+[2025-11-09 20:52:44,825] [INFO] [DATASET] match score=1.00
+[2025-11-09 20:52:44,828] [INFO] [CHAT] احلا مساء عليك -> احلا مساء عليك يا خالد تؤمر بي حاجه تاني
+[2025-11-09 20:52:44,828] [INFO] 127.0.0.1 - - [09/Nov/2025 20:52:44] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 20:57:18,448] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 20:57:18,449] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 20:57:21,043] [INFO] 127.0.0.1 - - [09/Nov/2025 20:57:21] "GET / HTTP/1.1" 200 -
+[2025-11-09 20:57:21,304] [INFO] 127.0.0.1 - - [09/Nov/2025 20:57:21] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 20:57:21,342] [INFO] 127.0.0.1 - - [09/Nov/2025 20:57:21] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 20:57:21,353] [INFO] 127.0.0.1 - - [09/Nov/2025 20:57:21] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 20:57:21,402] [INFO] 127.0.0.1 - - [09/Nov/2025 20:57:21] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 20:57:21,404] [INFO] 127.0.0.1 - - [09/Nov/2025 20:57:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 20:57:32,717] [INFO] dataset loaded: 13 pairs
+[2025-11-09 20:57:32,720] [INFO] ai_engine initialized.
+[2025-11-09 20:57:32,721] [INFO] [DATASET] match score=1.00
+[2025-11-09 20:57:32,724] [INFO] [CHAT] صباح الخير -> صباح النور يا khaled
+[2025-11-09 20:57:32,725] [INFO] 127.0.0.1 - - [09/Nov/2025 20:57:32] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 20:57:46,148] [INFO] [DATASET] match score=1.00
+[2025-11-09 20:57:46,155] [INFO] [CHAT] hi -> أهلاً! ممكن أساعدك في أي حاجة برمجية.
+[2025-11-09 20:57:46,156] [INFO] 127.0.0.1 - - [09/Nov/2025 20:57:46] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:03:55,723] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 21:03:55,723] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 21:04:04,000] [INFO] 127.0.0.1 - - [09/Nov/2025 21:04:04] "GET / HTTP/1.1" 200 -
+[2025-11-09 21:04:04,699] [INFO] 127.0.0.1 - - [09/Nov/2025 21:04:04] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 21:04:04,717] [INFO] 127.0.0.1 - - [09/Nov/2025 21:04:04] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 21:04:04,728] [INFO] 127.0.0.1 - - [09/Nov/2025 21:04:04] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 21:04:04,869] [INFO] 127.0.0.1 - - [09/Nov/2025 21:04:04] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 21:04:04,880] [INFO] 127.0.0.1 - - [09/Nov/2025 21:04:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 21:04:17,531] [INFO] dataset loaded: 13 pairs
+[2025-11-09 21:04:17,532] [INFO] ai_engine initialized.
+[2025-11-09 21:04:17,533] [INFO] [DATASET] match score=1.00
+[2025-11-09 21:04:17,543] [INFO] [CHAT] معني التفكير -> التفكير هو هبة عظمي  وهبها الله للانسان والتي من اعظم اثاراها وجود الحضارة الانسانية فالتفكير يحدث للانسان دون تعلم مقصود (تلقائي)دائم التطور
+[2025-11-09 21:04:17,548] [INFO] 127.0.0.1 - - [09/Nov/2025 21:04:17] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:12:20,558] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 21:12:20,558] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 21:12:25,659] [INFO] 127.0.0.1 - - [09/Nov/2025 21:12:25] "GET / HTTP/1.1" 200 -
+[2025-11-09 21:12:26,113] [INFO] 127.0.0.1 - - [09/Nov/2025 21:12:26] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 21:12:26,148] [INFO] 127.0.0.1 - - [09/Nov/2025 21:12:26] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 21:12:26,152] [INFO] 127.0.0.1 - - [09/Nov/2025 21:12:26] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 21:12:26,220] [INFO] 127.0.0.1 - - [09/Nov/2025 21:12:26] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 21:12:26,238] [INFO] 127.0.0.1 - - [09/Nov/2025 21:12:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 21:12:43,485] [INFO] dataset loaded: 14 pairs
+[2025-11-09 21:12:43,489] [INFO] ai_engine initialized.
+[2025-11-09 21:12:43,491] [INFO] [DATASET] match score=1.00
+[2025-11-09 21:12:43,500] [INFO] [CHAT] هل يوجد تعارض بين الفلسفه والدين -> طبعا لا يوجد اي تعارض بين الدين والفلسفه  فالحق لا يضاد الحق  حيث ان الحجه العقلية الفلسفيه داعمة للايمان  والعتقاد الديني  وهما يلتقيان في معالجة موضوعات معلينه  مثل ( اصل العالم. طبيعية الوجود. طبيعه الانسان. اصل الانسان)
+[2025-11-09 21:12:43,501] [INFO] 127.0.0.1 - - [09/Nov/2025 21:12:43] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:16:31,672] [INFO] [ML] model returned an answer
+[2025-11-09 21:16:31,688] [INFO] [CHAT] صلاية الملك نعرمر -> (مسترجع) الحمد لله
+[2025-11-09 21:16:31,690] [INFO] 127.0.0.1 - - [09/Nov/2025 21:16:31] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:16:47,589] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 21:16:47,590] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 21:16:52,873] [INFO] 127.0.0.1 - - [09/Nov/2025 21:16:52] "GET / HTTP/1.1" 200 -
+[2025-11-09 21:16:53,187] [INFO] 127.0.0.1 - - [09/Nov/2025 21:16:53] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 21:16:53,229] [INFO] 127.0.0.1 - - [09/Nov/2025 21:16:53] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 21:16:53,231] [INFO] 127.0.0.1 - - [09/Nov/2025 21:16:53] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 21:16:53,468] [INFO] 127.0.0.1 - - [09/Nov/2025 21:16:53] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 21:16:53,476] [INFO] 127.0.0.1 - - [09/Nov/2025 21:16:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 21:16:56,711] [INFO] dataset loaded: 15 pairs
+[2025-11-09 21:16:56,711] [INFO] ai_engine initialized.
+[2025-11-09 21:16:56,714] [INFO] [DATASET] match score=1.00
+[2025-11-09 21:16:56,730] [INFO] [CHAT] صلاية الملك نعرمر -> لوحة من حجر الشيست الاخضر وترجع للاسرة الاولة عام3200ق.م
+[2025-11-09 21:16:56,731] [INFO] 127.0.0.1 - - [09/Nov/2025 21:16:56] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:25:13,451] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 21:25:13,451] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 21:25:18,673] [INFO] 127.0.0.1 - - [09/Nov/2025 21:25:18] "GET / HTTP/1.1" 200 -
+[2025-11-09 21:25:19,078] [INFO] 127.0.0.1 - - [09/Nov/2025 21:25:19] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 21:25:19,115] [INFO] 127.0.0.1 - - [09/Nov/2025 21:25:19] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 21:25:19,120] [INFO] 127.0.0.1 - - [09/Nov/2025 21:25:19] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 21:25:19,192] [INFO] 127.0.0.1 - - [09/Nov/2025 21:25:19] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 21:25:19,214] [INFO] 127.0.0.1 - - [09/Nov/2025 21:25:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 21:25:25,183] [INFO] dataset loaded: 16 pairs
+[2025-11-09 21:25:25,183] [INFO] ai_engine initialized.
+[2025-11-09 21:25:25,186] [INFO] [DATASET] match score=1.00
+[2025-11-09 21:25:25,189] [INFO] [CHAT] ما اهميه دراسه التاريخ -> اهمية دراسة التاريخ هي (استخلاص العبر والدرودس.ابراز القدوات الصالحه.تنميه الشعور بي المسئولية.التقليل من حدة التعصب)
+[2025-11-09 21:25:25,189] [INFO] 127.0.0.1 - - [09/Nov/2025 21:25:25] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:38:24,195] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 21:38:24,196] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 21:38:36,477] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 21:38:36,477] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 21:38:41,553] [INFO] 127.0.0.1 - - [09/Nov/2025 21:38:41] "GET / HTTP/1.1" 200 -
+[2025-11-09 21:38:42,145] [INFO] 127.0.0.1 - - [09/Nov/2025 21:38:42] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 21:38:42,162] [INFO] 127.0.0.1 - - [09/Nov/2025 21:38:42] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 21:38:42,171] [INFO] 127.0.0.1 - - [09/Nov/2025 21:38:42] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 21:38:42,231] [INFO] 127.0.0.1 - - [09/Nov/2025 21:38:42] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 21:38:42,240] [INFO] 127.0.0.1 - - [09/Nov/2025 21:38:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 21:38:46,075] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 21:38:46,076] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 21:38:51,141] [INFO] 127.0.0.1 - - [09/Nov/2025 21:38:51] "GET / HTTP/1.1" 200 -
+[2025-11-09 21:38:51,376] [INFO] 127.0.0.1 - - [09/Nov/2025 21:38:51] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 21:38:51,437] [INFO] 127.0.0.1 - - [09/Nov/2025 21:38:51] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 21:38:51,459] [INFO] 127.0.0.1 - - [09/Nov/2025 21:38:51] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 21:38:51,459] [INFO] 127.0.0.1 - - [09/Nov/2025 21:38:51] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 21:38:51,484] [INFO] 127.0.0.1 - - [09/Nov/2025 21:38:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 21:39:02,512] [INFO] dataset loaded: 20 pairs
+[2025-11-09 21:39:02,512] [INFO] ai_engine initialized.
+[2025-11-09 21:39:02,513] [INFO] [DATASET] match score=1.00
+[2025-11-09 21:39:02,517] [INFO] [CHAT] هيرودوت -> والذي يتكون من تسعة اجزاء خصص الجزاء الثاني منه لمصر وتحدث فيه عن(جغرافيتها ومدنها. احداثها التاريخية التي مرت بها .اعمال ملوكها .مظاهر حضارتها) هو مؤرخ اغريقي زار مصر وكتب عنها في كتابه (تمحيص الاخبار)
+[2025-11-09 21:39:02,517] [INFO] 127.0.0.1 - - [09/Nov/2025 21:39:02] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:39:52,936] [INFO] [CACHE] hit
+[2025-11-09 21:39:52,939] [INFO] [CHAT] هيرودوت -> والذي يتكون من تسعة اجزاء خصص الجزاء الثاني منه لمصر وتحدث فيه عن(جغرافيتها ومدنها. احداثها التاريخية التي مرت بها .اعمال ملوكها .مظاهر حضارتها) هو مؤرخ اغريقي زار مصر وكتب عنها في كتابه (تمحيص الاخبار)
+[2025-11-09 21:39:52,940] [INFO] 127.0.0.1 - - [09/Nov/2025 21:39:52] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:40:07,327] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 21:40:07,327] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 21:40:11,943] [INFO] 127.0.0.1 - - [09/Nov/2025 21:40:11] "GET / HTTP/1.1" 200 -
+[2025-11-09 21:40:12,256] [INFO] 127.0.0.1 - - [09/Nov/2025 21:40:12] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 21:40:12,290] [INFO] 127.0.0.1 - - [09/Nov/2025 21:40:12] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 21:40:12,297] [INFO] 127.0.0.1 - - [09/Nov/2025 21:40:12] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 21:40:12,385] [INFO] 127.0.0.1 - - [09/Nov/2025 21:40:12] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 21:40:12,386] [INFO] 127.0.0.1 - - [09/Nov/2025 21:40:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 21:40:21,438] [INFO] dataset loaded: 20 pairs
+[2025-11-09 21:40:21,439] [INFO] ai_engine initialized.
+[2025-11-09 21:40:21,441] [INFO] [DATASET] match score=1.00
+[2025-11-09 21:40:21,445] [INFO] [CHAT] هيرودوت -> والذي يتكون من تسعة اجزاء خصص الجزاء الثاني منه لمصر وتحدث فيه عن(جغرافيتها ومدنها. احداثها التاريخية التي مرت بها .اعمال ملوكها .مظاهر حضارتها) هو مؤرخ اغريقي زار مصر وكتب عنها في كتابه (تمحيص الاخبار)
+[2025-11-09 21:40:21,446] [INFO] 127.0.0.1 - - [09/Nov/2025 21:40:21] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:40:43,146] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 21:40:43,146] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 21:40:48,031] [INFO] 127.0.0.1 - - [09/Nov/2025 21:40:48] "GET / HTTP/1.1" 200 -
+[2025-11-09 21:40:48,365] [INFO] 127.0.0.1 - - [09/Nov/2025 21:40:48] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 21:40:48,378] [INFO] 127.0.0.1 - - [09/Nov/2025 21:40:48] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 21:40:48,386] [INFO] 127.0.0.1 - - [09/Nov/2025 21:40:48] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 21:40:48,459] [INFO] 127.0.0.1 - - [09/Nov/2025 21:40:48] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 21:40:48,468] [INFO] 127.0.0.1 - - [09/Nov/2025 21:40:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 21:40:58,118] [INFO] dataset loaded: 20 pairs
+[2025-11-09 21:40:58,118] [INFO] ai_engine initialized.
+[2025-11-09 21:40:58,120] [INFO] [DATASET] match score=1.00
+[2025-11-09 21:40:58,123] [INFO] [CHAT] هيرودوت -> هو مؤرخ اغريقي زار مصر وكتب عنها في كتابه (تمحيص الاخبار)والذي يتكون من تسعة اجزاء خصص الجزاء الثاني منه لمصر وتحدث فيه عن(جغرافيتها ومدنها. احداثها التاريخية التي مرت بها .اعمال ملوكها .مظاهر حضارتها)
+[2025-11-09 21:40:58,124] [INFO] 127.0.0.1 - - [09/Nov/2025 21:40:58] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:41:17,649] [INFO] [DATASET] match score=1.00
+[2025-11-09 21:41:17,652] [INFO] [CHAT] صباح الخير -> صباح النور يا khaled
+[2025-11-09 21:41:17,653] [INFO] 127.0.0.1 - - [09/Nov/2025 21:41:17] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:41:29,334] [INFO] [DATASET] match score=1.00
+[2025-11-09 21:41:29,337] [INFO] [CHAT] مساء الخير -> مساءالنور يا khaled
+[2025-11-09 21:41:29,338] [INFO] 127.0.0.1 - - [09/Nov/2025 21:41:29] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:41:40,104] [INFO] [DATASET] match score=1.00
+[2025-11-09 21:41:40,109] [INFO] [CHAT] احلا مساء عليك -> احلا مساء عليك يا خالد تؤمر بي حاجه تاني
+[2025-11-09 21:41:40,109] [INFO] 127.0.0.1 - - [09/Nov/2025 21:41:40] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:41:51,121] [INFO] [DATASET] match score=1.00
+[2025-11-09 21:41:51,125] [INFO] [CHAT] معني التفكير -> التفكير هو هبة عظمي  وهبها الله للانسان والتي من اعظم اثاراها وجود الحضارة الانسانية فالتفكير يحدث للانسان دون تعلم مقصود (تلقائي)دائم التطور
+[2025-11-09 21:41:51,126] [INFO] 127.0.0.1 - - [09/Nov/2025 21:41:51] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:42:03,722] [INFO] [DATASET] match score=1.00
+[2025-11-09 21:42:03,727] [INFO] [CHAT] صلاية الملك نعرمر -> لوحة من حجر الشيست الاخضر وترجع للاسرة الاولة عام3200ق.م
+[2025-11-09 21:42:03,729] [INFO] 127.0.0.1 - - [09/Nov/2025 21:42:03] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:42:19,096] [INFO] [ML] model returned an answer
+[2025-11-09 21:42:19,100] [INFO] [CHAT] الفلسفه والدين -> (مسترجع) الحمد لله
+[2025-11-09 21:42:19,101] [INFO] 127.0.0.1 - - [09/Nov/2025 21:42:19] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:42:45,316] [INFO] [CACHE] hit
+[2025-11-09 21:42:45,324] [INFO] [CHAT] الفلسفه والدين -> (مسترجع) الحمد لله
+[2025-11-09 21:42:45,324] [INFO] 127.0.0.1 - - [09/Nov/2025 21:42:45] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:46:39,113] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 21:46:39,113] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 21:46:44,490] [INFO] 127.0.0.1 - - [09/Nov/2025 21:46:44] "GET / HTTP/1.1" 200 -
+[2025-11-09 21:46:44,757] [INFO] 127.0.0.1 - - [09/Nov/2025 21:46:44] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 21:46:44,794] [INFO] 127.0.0.1 - - [09/Nov/2025 21:46:44] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 21:46:44,803] [INFO] 127.0.0.1 - - [09/Nov/2025 21:46:44] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 21:46:44,953] [INFO] 127.0.0.1 - - [09/Nov/2025 21:46:44] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 21:46:44,954] [INFO] 127.0.0.1 - - [09/Nov/2025 21:46:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 21:46:58,550] [INFO] dataset loaded: 20 pairs
+[2025-11-09 21:46:58,550] [INFO] ai_engine initialized.
+[2025-11-09 21:47:01,239] [INFO] [ML] model returned an answer
+[2025-11-09 21:47:01,245] [INFO] [CHAT] *** -> (مسترجع) الحمد لله
+[2025-11-09 21:47:01,246] [INFO] 127.0.0.1 - - [09/Nov/2025 21:47:01] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:47:59,411] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 21:47:59,412] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 21:48:04,042] [INFO] 127.0.0.1 - - [09/Nov/2025 21:48:04] "GET / HTTP/1.1" 200 -
+[2025-11-09 21:48:04,368] [INFO] 127.0.0.1 - - [09/Nov/2025 21:48:04] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 21:48:04,382] [INFO] 127.0.0.1 - - [09/Nov/2025 21:48:04] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 21:48:04,401] [INFO] 127.0.0.1 - - [09/Nov/2025 21:48:04] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 21:48:04,475] [INFO] 127.0.0.1 - - [09/Nov/2025 21:48:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 21:48:04,477] [INFO] 127.0.0.1 - - [09/Nov/2025 21:48:04] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 21:48:23,205] [INFO] dataset loaded: 20 pairs
+[2025-11-09 21:48:23,206] [INFO] ai_engine initialized.
+[2025-11-09 21:48:23,207] [INFO] [DATASET] match score=0.67
+[2025-11-09 21:48:23,211] [INFO] [CHAT] صلاية نعرمر -> لوحة من حجر الشيست الاخضر وترجع للاسرة الاولة عام3200ق.م
+[2025-11-09 21:48:23,212] [INFO] 127.0.0.1 - - [09/Nov/2025 21:48:23] "POST /api/chat HTTP/1.1" 200 -
+[2025-11-09 21:48:24,963] [INFO] 127.0.0.1 - - [09/Nov/2025 21:48:24] "[33mGET /api/save HTTP/1.1[0m" 404 -
+[2025-11-09 21:48:26,255] [INFO] 127.0.0.1 - - [09/Nov/2025 21:48:26] "[33mGET /api/save HTTP/1.1[0m" 404 -
+[2025-11-09 23:03:27,876] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 23:03:27,895] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 23:03:31,924] [INFO] 127.0.0.1 - - [09/Nov/2025 23:03:31] "GET / HTTP/1.1" 200 -
+[2025-11-09 23:03:32,223] [INFO] 127.0.0.1 - - [09/Nov/2025 23:03:32] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 23:03:32,223] [INFO] 127.0.0.1 - - [09/Nov/2025 23:03:32] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 23:03:32,251] [INFO] 127.0.0.1 - - [09/Nov/2025 23:03:32] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 23:03:32,370] [INFO] 127.0.0.1 - - [09/Nov/2025 23:03:32] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 23:03:32,371] [INFO] 127.0.0.1 - - [09/Nov/2025 23:03:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 23:14:13,128] [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-11-09 23:14:13,129] [INFO] [33mPress CTRL+C to quit[0m
+[2025-11-09 23:14:17,053] [INFO] 127.0.0.1 - - [09/Nov/2025 23:14:17] "GET / HTTP/1.1" 200 -
+[2025-11-09 23:14:17,334] [INFO] 127.0.0.1 - - [09/Nov/2025 23:14:17] "GET /assets/style.css HTTP/1.1" 200 -
+[2025-11-09 23:14:17,342] [INFO] 127.0.0.1 - - [09/Nov/2025 23:14:17] "GET /assets/script.js HTTP/1.1" 200 -
+[2025-11-09 23:14:17,348] [INFO] 127.0.0.1 - - [09/Nov/2025 23:14:17] "GET /assets/icons/ai_icon.jpg HTTP/1.1" 200 -
+[2025-11-09 23:14:17,416] [INFO] 127.0.0.1 - - [09/Nov/2025 23:14:17] "[33mGET /data/memory.json HTTP/1.1[0m" 404 -
+[2025-11-09 23:14:17,422] [INFO] 127.0.0.1 - - [09/Nov/2025 23:14:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 23:14:25,591] [INFO] dataset loaded: 20 pairs
+[2025-11-09 23:14:25,591] [INFO] ai_engine initialized.
+[2025-11-09 23:14:28,953] [INFO] [ML] model returned an answer
+[2025-11-09 23:14:28,956] [INFO] [CHAT] WFHP HGODV -> (مسترجع) الحمد لله
+[2025-11-09 23:14:28,957] [INFO] 127.0.0.1 - - [09/Nov/2025 23:14:28] "POST /api/chat HTTP/1.1" 200 -

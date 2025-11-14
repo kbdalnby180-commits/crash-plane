@@ -449,6 +449,8 @@ def start_server():
 if __name__ == "__main__":
     threading.Thread(target=start_server, daemon=True).start()
     time.sleep(0.5)
+    from server import start_server
+    start_server()
     print("🚀 AI Khaled جاهز ومُحسّن على http://127.0.0.1:5000")
     webview.create_window("AI Khaled — Smart Edition", "http://127.0.0.1:5000", width=980, height=740)
     webview.start()
